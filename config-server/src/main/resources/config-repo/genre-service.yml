@@ -1,0 +1,10 @@
+# Lưu ý: category-service phải là tên service con và name của service con đó
+spring:
+  application:
+    name: genre-service
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+server:
+  port: 8082

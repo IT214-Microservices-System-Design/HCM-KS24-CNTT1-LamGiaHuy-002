@@ -1,0 +1,10 @@
+# Lưu ý: product-service phải là tên service con và name của service con đó
+spring:
+  application:
+    name: movie-service
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+server:
+  port: 8082
